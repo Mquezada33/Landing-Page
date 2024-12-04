@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    color: #265729;
+    font-family: "roc grotesk", arial, helvetica;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    display: flex;
+    margin-right: auto;
+    padding: 28px;
+}
+
+.hero-image {
+    width: 300px;
+    height: auto;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: #d1e175;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 28px;
+}
+
+/* Hero section below */
+
+.container-2 {
+    display: flex;
+    padding: 28px;
+    gap: 27px;
+}
+
+.container-head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-height: fit-content;
+    gap: 15px;
+}
+
+.title {
+    font-size: 48px;
+    flex-wrap: wrap;
+    font-weight: 900;
+}
+
+.b1-text {
+    font-size: 18px;
+}
+
+
+button {
+    color: white;
+    background-color: #265729;
+    border: 2px solid #265729;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+/* features section below */
+
+.features-title {
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    background-color: #f8f7dc;
+
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 60px;
+    background-color: #f8f7dc;
+    flex-wrap: wrap;
+
+    
+}
+
+.photos {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #265729;
+    border-radius: 5px;
+}
+
+.features {
+text-align: center;
+justify-content: space-around;
+flex: 0 0 0;
+padding-bottom: 50px;
+
+}
+
+.features p {
+    max-width: 150px;
+}
+
+/* customer review section below */
+
+.quote-section {
+    display: flex;
+    background-color: #d1e175;
+    justify-content: space-around;
+    padding: 60px 90px;
+}
+
+.quote-section-container {
+    background-color: #f8f7dc;
+    border: 2px solid #f8f7dc;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 30px;
+}
+
+.customer-photo {
+    width: 200px;
+    height: auto;
+    margin-right: auto;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    flex-shrink: 0;
+}
+
+.customer-review {
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+    padding-left: 30px;
+    font-style: italic;
+}
+
+.signature {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+/* Final 4th section below */
+
+.section-four {
+    display: flex;
+    background-color: #f8f7dc;
+    justify-content: center;
+}
+
+.cta-container {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid #8266ad ;
+    background-color: #8266ad;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 10px;
+    align-items: center;
+}
+
+.cta-text, .cta-button {
+    color: white;
+    align-items: center;
+}
+
+.cta-button {
+    background-color: #d1e175;
+    border: 2px solid #d1e175;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+
+}
